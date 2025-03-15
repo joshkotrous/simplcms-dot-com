@@ -39,7 +39,7 @@ export default function Home() {
             Setup in less than 5 minutes with the simplified wizard
           </h2>
           <div className="relative flex items-center justify-center px-6 sm:px-20">
-            <div className="absolute inset-0 scale-[0.8] rounded-3xl bg-gradient-to-r from-primary/20 to-primary/10 blur-xl" />
+            <div className="absolute inset-0 scale-[0.8] rounded-3xl " />
             <div className="relative rounded-xl border bg-background/80 p-2 shadow-lg backdrop-blur-sm">
               <Image
                 src="/setupwizard.webp"
