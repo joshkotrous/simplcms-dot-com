@@ -43,10 +43,15 @@ export default function HeroBanner() {
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
-
-              <Button size="lg" variant="outline">
-                View our Docs
-              </Button>
+              <Link href="https://docs.simplcms.com">
+                <Button
+                  size="lg"
+                  className="group w-full sm:w-fit"
+                  variant="outline"
+                >
+                  View our Docs
+                </Button>
+              </Link>
             </div>
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground">

@@ -8,7 +8,7 @@ export default function Navigation() {
       <h2 className="font-bold">SimplCMS</h2>
       <ul className="flex justify-center gap-4">
         <Link href="/">Home</Link>
-        <Link href="/">Docs</Link>
+        <Link href="https://docs.simplcms.com">Docs</Link>
       </ul>
       <div></div>
     </nav>
