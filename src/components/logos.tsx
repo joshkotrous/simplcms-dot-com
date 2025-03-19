@@ -54,11 +54,17 @@ export function CloudinaryLogo() {
   );
 }
 
-export function AWSS3Logo() {
+export function AWSS3Logo({
+  height = 100,
+  width = 100,
+}: {
+  width?: number;
+  height?: number;
+}) {
   return (
     <svg
-      height="100"
-      width="100"
+      height={height}
+      width={width}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 80 80"
     >
@@ -172,12 +178,18 @@ export function SupabaseLogo() {
   );
 }
 
-export function DynamoDBLogo() {
+export function DynamoDBLogo({
+  height = 80,
+  width = 800,
+}: {
+  height?: number;
+  width?: number;
+}) {
   return (
     <div className="flex flex-col items-center gap-2">
       <svg
-        width="80px"
-        height="80px"
+        width={width}
+        height={height}
         viewBox="0 0 80 80"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +228,6 @@ export function DynamoDBLogo() {
           ></path>
         </g>
       </svg>
-      <span>AWS DynamoDB</span>
     </div>
   );
 }
