@@ -176,7 +176,7 @@ export default function IntegrationsSection() {
                   OAuth authentication with Microsoft
                 </span>
               </div>
-              <div className="col-span-2 flex flex-col items-center gap-3 p-4 rounded-lg border bg-card hover:bg-accent/50 transition-colors">
+              <div className="md:col-span-2 flex flex-col items-center gap-3 p-4 rounded-lg border bg-card hover:bg-accent/50 transition-colors">
                 <div className="h-16 flex items-center justify-center">
                   {/* Placeholder for another auth provider logo */}
                   <FaGithub className="h-12 w-12 text-primary" />
