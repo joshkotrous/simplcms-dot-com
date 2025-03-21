@@ -23,8 +23,8 @@ export default function HeroBanner() {
               </h1>
               <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl">
                 SimplCMS gives you the power to create, edit, and publish
-                content without the complexity. Built for creators, designed for
-                speed.
+                content without the complexity. Built for developers, designed
+                for speed.
               </p>
             </div>
 

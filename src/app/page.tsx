@@ -4,7 +4,7 @@ import IntegrationsSection from "@/components/integrationsSection";
 import SetupWizardSection from "@/components/setupWizardSection";
 export default function Home() {
   return (
-    <div className="pb-20 sm:pt-20 lg:pt-0 bg-gradient-to-b from-background to-muted/30">
+    <div className="pb-20 pt-10 sm:pt-20 lg:pt-0 bg-gradient-to-b from-background to-muted/30">
       <div className="fixed w-screen h-screen rounded-full bg-primary/5 blur-3xl z-0" />
       <div className="fixed w-screen h-screen rounded-full bg-primary/10 blur-3xl z-0" />
 
